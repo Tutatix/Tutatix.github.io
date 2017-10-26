@@ -1,0 +1,496 @@
+@keyframes visible {
+  from, to {
+    visibility: visible; } }
+body header.header > a {
+  position: relative; }
+  body header.header > a lista-categorias,
+  body header.header > a .lista-categorias {
+    position: absolute;
+    height: 3rem;
+    top: 20px;
+    clip: rect(0.75rem, 400px, 2.25rem, 0);
+    overflow: hidden; }
+    body header.header > a lista-categorias ul,
+    body header.header > a .lista-categorias ul {
+      margin: 0; }
+      body header.header > a lista-categorias ul, body header.header > a lista-categorias ul li,
+      body header.header > a .lista-categorias ul,
+      body header.header > a .lista-categorias ul li {
+        display: block;
+        height: 3rem;
+        line-height: 3rem;
+        white-space: nowrap; }
+  @media screen and (max-width: 35.4rem) {
+    body header.header > a lista-categorias,
+    body header.header > a .lista-categorias {
+      left: 115px; }
+    body header.header > a ul, body header.header > a ul li {
+      font-size: 1rem; } }
+  @media screen and (min-width: 35.5rem) {
+    body header.header > a lista-categorias,
+    body header.header > a .lista-categorias {
+      left: 128px; }
+    body header.header > a ul, body header.header > a ul li {
+      font-size: 1.5rem; } }
+  body header.header > a .lista-categorias {
+    visibility: hidden;
+    -webkit-animation-name: visible;
+    animation-name: visible;
+    -webkit-animation-duration: 1000s;
+    animation-duration: 1000s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+    body header.header > a .lista-categorias ul {
+      -webkit-animation-name: rotacionY;
+      animation-name: rotacionY;
+      -webkit-animation-duration: 40s;
+      animation-duration: 40s;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-animation-delay: 0s;
+      animation-delay: 0s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards; }
+@keyframes rotacionY {
+  0% {
+    -webkit-transform: translateY(0rem);
+    transform: translateY(0rem); }
+  8.33333% {
+    -webkit-transform: translateY(0rem);
+    transform: translateY(0rem); }
+  16.66667% {
+    -webkit-transform: translateY(-3rem);
+    transform: translateY(-3rem); }
+  33.33333% {
+    -webkit-transform: translateY(-3rem);
+    transform: translateY(-3rem); }
+  50% {
+    -webkit-transform: translateY(-6rem);
+    transform: translateY(-6rem); }
+  66.66667% {
+    -webkit-transform: translateY(-6rem);
+    transform: translateY(-6rem); }
+  83.33333% {
+    -webkit-transform: translateY(-9rem);
+    transform: translateY(-9rem); }
+  100% {
+    -webkit-transform: translateY(-9rem);
+    transform: translateY(-9rem); } }
+@media all and (min-width: 140rem) and (max-width: 159rem) {
+  .sumario-categorias #application--7:before {
+    background: url("../producto/categorias/imagenes/port_8x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 120rem) and (max-width: 139rem) {
+  .sumario-categorias #application--7:before {
+    background: url("../producto/categorias/imagenes/port_7x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 100rem) and (max-width: 119rem) {
+  .sumario-categorias #application--7:before {
+    background: url("../producto/categorias/imagenes/port_6x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 80rem) and (max-width: 99rem) {
+  .sumario-categorias #application--7:before {
+    background: url("../producto/categorias/imagenes/port_5x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 60rem) and (max-width: 79rem) {
+  .sumario-categorias #application--7:before {
+    background: url("../producto/categorias/imagenes/port_4x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 40rem) and (max-width: 59rem) {
+  .sumario-categorias #application--7:before {
+    background: url("../producto/categorias/imagenes/port_3x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 20rem) and (max-width: 39rem) {
+  .sumario-categorias #application--7:before {
+    background: url("../producto/categorias/imagenes/port_2x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 0rem) and (max-width: 19rem) {
+  .sumario-categorias #application--7:before {
+    background: url("../producto/categorias/imagenes/port_1x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 160rem) {
+  .sumario-categorias #application--7:before {
+    background: url("../producto/categorias/imagenes/original/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all {
+  .sumario-categorias #application--7:before {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; } }
+@media all and (min-width: 140rem) and (max-width: 159rem) {
+  .sumario-categorias #application--9:before {
+    background: url("../producto/categorias/imagenes/port_8x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 120rem) and (max-width: 139rem) {
+  .sumario-categorias #application--9:before {
+    background: url("../producto/categorias/imagenes/port_7x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 100rem) and (max-width: 119rem) {
+  .sumario-categorias #application--9:before {
+    background: url("../producto/categorias/imagenes/port_6x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 80rem) and (max-width: 99rem) {
+  .sumario-categorias #application--9:before {
+    background: url("../producto/categorias/imagenes/port_5x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 60rem) and (max-width: 79rem) {
+  .sumario-categorias #application--9:before {
+    background: url("../producto/categorias/imagenes/port_4x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 40rem) and (max-width: 59rem) {
+  .sumario-categorias #application--9:before {
+    background: url("../producto/categorias/imagenes/port_3x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 20rem) and (max-width: 39rem) {
+  .sumario-categorias #application--9:before {
+    background: url("../producto/categorias/imagenes/port_2x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 0rem) and (max-width: 19rem) {
+  .sumario-categorias #application--9:before {
+    background: url("../producto/categorias/imagenes/port_1x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 160rem) {
+  .sumario-categorias #application--9:before {
+    background: url("../producto/categorias/imagenes/original/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all {
+  .sumario-categorias #application--9:before {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; } }
+@media all and (min-width: 140rem) and (max-width: 159rem) {
+  .sumario-categorias #application--5:before {
+    background: url("../producto/categorias/imagenes/port_8x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 120rem) and (max-width: 139rem) {
+  .sumario-categorias #application--5:before {
+    background: url("../producto/categorias/imagenes/port_7x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 100rem) and (max-width: 119rem) {
+  .sumario-categorias #application--5:before {
+    background: url("../producto/categorias/imagenes/port_6x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 80rem) and (max-width: 99rem) {
+  .sumario-categorias #application--5:before {
+    background: url("../producto/categorias/imagenes/port_5x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 60rem) and (max-width: 79rem) {
+  .sumario-categorias #application--5:before {
+    background: url("../producto/categorias/imagenes/port_4x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 40rem) and (max-width: 59rem) {
+  .sumario-categorias #application--5:before {
+    background: url("../producto/categorias/imagenes/port_3x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 20rem) and (max-width: 39rem) {
+  .sumario-categorias #application--5:before {
+    background: url("../producto/categorias/imagenes/port_2x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 0rem) and (max-width: 19rem) {
+  .sumario-categorias #application--5:before {
+    background: url("../producto/categorias/imagenes/port_1x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 160rem) {
+  .sumario-categorias #application--5:before {
+    background: url("../producto/categorias/imagenes/original/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all {
+  .sumario-categorias #application--5:before {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; } }
+@media all and (min-width: 140rem) and (max-width: 159rem) {
+  .sumario-categorias #application--3:before {
+    background: url("../producto/categorias/imagenes/port_8x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 120rem) and (max-width: 139rem) {
+  .sumario-categorias #application--3:before {
+    background: url("../producto/categorias/imagenes/port_7x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 100rem) and (max-width: 119rem) {
+  .sumario-categorias #application--3:before {
+    background: url("../producto/categorias/imagenes/port_6x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 80rem) and (max-width: 99rem) {
+  .sumario-categorias #application--3:before {
+    background: url("../producto/categorias/imagenes/port_5x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 60rem) and (max-width: 79rem) {
+  .sumario-categorias #application--3:before {
+    background: url("../producto/categorias/imagenes/port_4x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 40rem) and (max-width: 59rem) {
+  .sumario-categorias #application--3:before {
+    background: url("../producto/categorias/imagenes/port_3x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 20rem) and (max-width: 39rem) {
+  .sumario-categorias #application--3:before {
+    background: url("../producto/categorias/imagenes/port_2x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 0rem) and (max-width: 19rem) {
+  .sumario-categorias #application--3:before {
+    background: url("../producto/categorias/imagenes/port_1x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 160rem) {
+  .sumario-categorias #application--3:before {
+    background: url("../producto/categorias/imagenes/original/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all {
+  .sumario-categorias #application--3:before {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; } }
+
+@media all and (min-width: 140rem) and (max-width: 159rem) {
+  .productos_categorias-index #productos_categorias-index--7:before {
+    background: url("../producto/categorias/imagenes/port_8x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 120rem) and (max-width: 139rem) {
+  .productos_categorias-index #productos_categorias-index--7:before {
+    background: url("../producto/categorias/imagenes/port_7x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 100rem) and (max-width: 119rem) {
+  .productos_categorias-index #productos_categorias-index--7:before {
+    background: url("../producto/categorias/imagenes/port_6x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 80rem) and (max-width: 99rem) {
+  .productos_categorias-index #productos_categorias-index--7:before {
+    background: url("../producto/categorias/imagenes/port_5x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 60rem) and (max-width: 79rem) {
+  .productos_categorias-index #productos_categorias-index--7:before {
+    background: url("../producto/categorias/imagenes/port_4x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 40rem) and (max-width: 59rem) {
+  .productos_categorias-index #productos_categorias-index--7:before {
+    background: url("../producto/categorias/imagenes/port_3x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 20rem) and (max-width: 39rem) {
+  .productos_categorias-index #productos_categorias-index--7:before {
+    background: url("../producto/categorias/imagenes/port_2x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 0rem) and (max-width: 19rem) {
+  .productos_categorias-index #productos_categorias-index--7:before {
+    background: url("../producto/categorias/imagenes/port_1x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 160rem) {
+  .productos_categorias-index #productos_categorias-index--7:before {
+    background: url("../producto/categorias/imagenes/original/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all {
+  .productos_categorias-index #productos_categorias-index--7:before {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; } }
+@media all and (min-width: 140rem) and (max-width: 159rem) {
+  .productos_categorias-index #productos_categorias-index--9:before {
+    background: url("../producto/categorias/imagenes/port_8x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 120rem) and (max-width: 139rem) {
+  .productos_categorias-index #productos_categorias-index--9:before {
+    background: url("../producto/categorias/imagenes/port_7x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 100rem) and (max-width: 119rem) {
+  .productos_categorias-index #productos_categorias-index--9:before {
+    background: url("../producto/categorias/imagenes/port_6x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 80rem) and (max-width: 99rem) {
+  .productos_categorias-index #productos_categorias-index--9:before {
+    background: url("../producto/categorias/imagenes/port_5x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 60rem) and (max-width: 79rem) {
+  .productos_categorias-index #productos_categorias-index--9:before {
+    background: url("../producto/categorias/imagenes/port_4x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 40rem) and (max-width: 59rem) {
+  .productos_categorias-index #productos_categorias-index--9:before {
+    background: url("../producto/categorias/imagenes/port_3x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 20rem) and (max-width: 39rem) {
+  .productos_categorias-index #productos_categorias-index--9:before {
+    background: url("../producto/categorias/imagenes/port_2x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 0rem) and (max-width: 19rem) {
+  .productos_categorias-index #productos_categorias-index--9:before {
+    background: url("../producto/categorias/imagenes/port_1x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 160rem) {
+  .productos_categorias-index #productos_categorias-index--9:before {
+    background: url("../producto/categorias/imagenes/original/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all {
+  .productos_categorias-index #productos_categorias-index--9:before {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; } }
+@media all and (min-width: 140rem) and (max-width: 159rem) {
+  .productos_categorias-index #productos_categorias-index--5:before {
+    background: url("../producto/categorias/imagenes/port_8x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 120rem) and (max-width: 139rem) {
+  .productos_categorias-index #productos_categorias-index--5:before {
+    background: url("../producto/categorias/imagenes/port_7x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 100rem) and (max-width: 119rem) {
+  .productos_categorias-index #productos_categorias-index--5:before {
+    background: url("../producto/categorias/imagenes/port_6x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 80rem) and (max-width: 99rem) {
+  .productos_categorias-index #productos_categorias-index--5:before {
+    background: url("../producto/categorias/imagenes/port_5x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 60rem) and (max-width: 79rem) {
+  .productos_categorias-index #productos_categorias-index--5:before {
+    background: url("../producto/categorias/imagenes/port_4x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 40rem) and (max-width: 59rem) {
+  .productos_categorias-index #productos_categorias-index--5:before {
+    background: url("../producto/categorias/imagenes/port_3x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 20rem) and (max-width: 39rem) {
+  .productos_categorias-index #productos_categorias-index--5:before {
+    background: url("../producto/categorias/imagenes/port_2x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 0rem) and (max-width: 19rem) {
+  .productos_categorias-index #productos_categorias-index--5:before {
+    background: url("../producto/categorias/imagenes/port_1x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 160rem) {
+  .productos_categorias-index #productos_categorias-index--5:before {
+    background: url("../producto/categorias/imagenes/original/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all {
+  .productos_categorias-index #productos_categorias-index--5:before {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; } }
+@media all and (min-width: 140rem) and (max-width: 159rem) {
+  .productos_categorias-index #productos_categorias-index--3:before {
+    background: url("../producto/categorias/imagenes/port_8x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 120rem) and (max-width: 139rem) {
+  .productos_categorias-index #productos_categorias-index--3:before {
+    background: url("../producto/categorias/imagenes/port_7x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 100rem) and (max-width: 119rem) {
+  .productos_categorias-index #productos_categorias-index--3:before {
+    background: url("../producto/categorias/imagenes/port_6x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 80rem) and (max-width: 99rem) {
+  .productos_categorias-index #productos_categorias-index--3:before {
+    background: url("../producto/categorias/imagenes/port_5x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 60rem) and (max-width: 79rem) {
+  .productos_categorias-index #productos_categorias-index--3:before {
+    background: url("../producto/categorias/imagenes/port_4x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 40rem) and (max-width: 59rem) {
+  .productos_categorias-index #productos_categorias-index--3:before {
+    background: url("../producto/categorias/imagenes/port_3x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 20rem) and (max-width: 39rem) {
+  .productos_categorias-index #productos_categorias-index--3:before {
+    background: url("../producto/categorias/imagenes/port_2x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 0rem) and (max-width: 19rem) {
+  .productos_categorias-index #productos_categorias-index--3:before {
+    background: url("../producto/categorias/imagenes/port_1x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 160rem) {
+  .productos_categorias-index #productos_categorias-index--3:before {
+    background: url("../producto/categorias/imagenes/original/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all {
+  .productos_categorias-index #productos_categorias-index--3:before {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; } }
+
+@media all and (min-width: 140rem) and (max-width: 159rem) {
+  .productos_categorias-show #productos_categorias-show--7:before {
+    background: url("../producto/categorias/imagenes/port_8x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 120rem) and (max-width: 139rem) {
+  .productos_categorias-show #productos_categorias-show--7:before {
+    background: url("../producto/categorias/imagenes/port_7x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 100rem) and (max-width: 119rem) {
+  .productos_categorias-show #productos_categorias-show--7:before {
+    background: url("../producto/categorias/imagenes/port_6x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 80rem) and (max-width: 99rem) {
+  .productos_categorias-show #productos_categorias-show--7:before {
+    background: url("../producto/categorias/imagenes/port_5x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 60rem) and (max-width: 79rem) {
+  .productos_categorias-show #productos_categorias-show--7:before {
+    background: url("../producto/categorias/imagenes/port_4x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 40rem) and (max-width: 59rem) {
+  .productos_categorias-show #productos_categorias-show--7:before {
+    background: url("../producto/categorias/imagenes/port_3x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 20rem) and (max-width: 39rem) {
+  .productos_categorias-show #productos_categorias-show--7:before {
+    background: url("../producto/categorias/imagenes/port_2x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 0rem) and (max-width: 19rem) {
+  .productos_categorias-show #productos_categorias-show--7:before {
+    background: url("../producto/categorias/imagenes/port_1x/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all and (min-width: 160rem) {
+  .productos_categorias-show #productos_categorias-show--7:before {
+    background: url("../producto/categorias/imagenes/original/7/hidroplane-ascensores.jpg%3F1494429919"); } }
+@media all {
+  .productos_categorias-show #productos_categorias-show--7:before {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; } }
+@media all and (min-width: 140rem) and (max-width: 159rem) {
+  .productos_categorias-show #productos_categorias-show--9:before {
+    background: url("../producto/categorias/imagenes/port_8x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 120rem) and (max-width: 139rem) {
+  .productos_categorias-show #productos_categorias-show--9:before {
+    background: url("../producto/categorias/imagenes/port_7x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 100rem) and (max-width: 119rem) {
+  .productos_categorias-show #productos_categorias-show--9:before {
+    background: url("../producto/categorias/imagenes/port_6x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 80rem) and (max-width: 99rem) {
+  .productos_categorias-show #productos_categorias-show--9:before {
+    background: url("../producto/categorias/imagenes/port_5x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 60rem) and (max-width: 79rem) {
+  .productos_categorias-show #productos_categorias-show--9:before {
+    background: url("../producto/categorias/imagenes/port_4x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 40rem) and (max-width: 59rem) {
+  .productos_categorias-show #productos_categorias-show--9:before {
+    background: url("../producto/categorias/imagenes/port_3x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 20rem) and (max-width: 39rem) {
+  .productos_categorias-show #productos_categorias-show--9:before {
+    background: url("../producto/categorias/imagenes/port_2x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 0rem) and (max-width: 19rem) {
+  .productos_categorias-show #productos_categorias-show--9:before {
+    background: url("../producto/categorias/imagenes/port_1x/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all and (min-width: 160rem) {
+  .productos_categorias-show #productos_categorias-show--9:before {
+    background: url("../producto/categorias/imagenes/original/9/hidroplane-montacargas.jpg%3F1494429880"); } }
+@media all {
+  .productos_categorias-show #productos_categorias-show--9:before {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; } }
+@media all and (min-width: 140rem) and (max-width: 159rem) {
+  .productos_categorias-show #productos_categorias-show--5:before {
+    background: url("../producto/categorias/imagenes/port_8x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 120rem) and (max-width: 139rem) {
+  .productos_categorias-show #productos_categorias-show--5:before {
+    background: url("../producto/categorias/imagenes/port_7x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 100rem) and (max-width: 119rem) {
+  .productos_categorias-show #productos_categorias-show--5:before {
+    background: url("../producto/categorias/imagenes/port_6x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 80rem) and (max-width: 99rem) {
+  .productos_categorias-show #productos_categorias-show--5:before {
+    background: url("../producto/categorias/imagenes/port_5x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 60rem) and (max-width: 79rem) {
+  .productos_categorias-show #productos_categorias-show--5:before {
+    background: url("../producto/categorias/imagenes/port_4x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 40rem) and (max-width: 59rem) {
+  .productos_categorias-show #productos_categorias-show--5:before {
+    background: url("../producto/categorias/imagenes/port_3x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 20rem) and (max-width: 39rem) {
+  .productos_categorias-show #productos_categorias-show--5:before {
+    background: url("../producto/categorias/imagenes/port_2x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 0rem) and (max-width: 19rem) {
+  .productos_categorias-show #productos_categorias-show--5:before {
+    background: url("../producto/categorias/imagenes/port_1x/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all and (min-width: 160rem) {
+  .productos_categorias-show #productos_categorias-show--5:before {
+    background: url("../producto/categorias/imagenes/original/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828"); } }
+@media all {
+  .productos_categorias-show #productos_categorias-show--5:before {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; } }
+@media all and (min-width: 140rem) and (max-width: 159rem) {
+  .productos_categorias-show #productos_categorias-show--3:before {
+    background: url("../producto/categorias/imagenes/port_8x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 120rem) and (max-width: 139rem) {
+  .productos_categorias-show #productos_categorias-show--3:before {
+    background: url("../producto/categorias/imagenes/port_7x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 100rem) and (max-width: 119rem) {
+  .productos_categorias-show #productos_categorias-show--3:before {
+    background: url("../producto/categorias/imagenes/port_6x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 80rem) and (max-width: 99rem) {
+  .productos_categorias-show #productos_categorias-show--3:before {
+    background: url("../producto/categorias/imagenes/port_5x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 60rem) and (max-width: 79rem) {
+  .productos_categorias-show #productos_categorias-show--3:before {
+    background: url("../producto/categorias/imagenes/port_4x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 40rem) and (max-width: 59rem) {
+  .productos_categorias-show #productos_categorias-show--3:before {
+    background: url("../producto/categorias/imagenes/port_3x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 20rem) and (max-width: 39rem) {
+  .productos_categorias-show #productos_categorias-show--3:before {
+    background: url("../producto/categorias/imagenes/port_2x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 0rem) and (max-width: 19rem) {
+  .productos_categorias-show #productos_categorias-show--3:before {
+    background: url("../producto/categorias/imagenes/port_1x/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all and (min-width: 160rem) {
+  .productos_categorias-show #productos_categorias-show--3:before {
+    background: url("../producto/categorias/imagenes/original/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783"); } }
+@media all {
+  .productos_categorias-show #productos_categorias-show--3:before {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat; } }
+.productos_categorias-show #productos_categorias-show-icon--3:before {
+  background: url("../producto/categorias/imagenes/icon_port/3/hidroplane-sillas-salvaescaleras.jpg%3F1494429783");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+.productos_categorias-show #productos_categorias-show-icon--5:before {
+  background: url("../producto/categorias/imagenes/icon_port/5/hidroplane-plataformas-salvaescaleras.jpg%3F1494429828");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+.productos_categorias-show #productos_categorias-show-icon--7:before {
+  background: url("../producto/categorias/imagenes/icon_port/7/hidroplane-ascensores.jpg%3F1494429919");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+.productos_categorias-show #productos_categorias-show-icon--9:before {
+  background: url("../producto/categorias/imagenes/icon_port/9/hidroplane-montacargas.jpg%3F1494429880");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat; }
